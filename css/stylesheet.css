@@ -1,9 +1,22 @@
-div{
-	height: 120px;
-	width: 300px;
+.menu-static{
+	height: 60px;
+	width: 100%;
 	background: red;
-	margin: 20px 50px;
-	padding: 30px;
-	border: 10px solid black;
-	display: inline-block;
+	padding: ;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.logo{
+	color: #fafafa;
+	display: block;
+	margin-left: 40px;
+	
+}
+
+
+body{
+	background: #fafafa; /* url(../images/fondo01.jpg);*/
+
 }
