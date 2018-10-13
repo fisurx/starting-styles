@@ -1,7 +1,13 @@
+body{
+	heigt:100%;
+	background: #fafafa; /* url(../images/fondo01.jpg);*/
+}
+
+
 .menu-static{
-	height: 60px;
+	height: 70px;
 	width: 100%;
-	background: red;
+	background: black;
 	padding: ;
 	position: absolute;
 	top: 0;
@@ -9,14 +15,33 @@
 }
 
 .logo{
-	color: #fafafa;
+	position: relative;
+	color: red;
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
 	display: block;
 	margin-left: 40px;
-	
+	margin-bottom: 10px;
+	bottom: 20px;
 }
 
-
-body{
-	background: #fafafa; /* url(../images/fondo01.jpg);*/
+.cuestionario{
+	position: relative;
+	background: black;	
+	margin: 0px auto;
+	width: 450px;
+	height: 400px;
+	top: 100px;
+	bottom: 20px;
+	border: 1px solid black;
+	border-radius: 10px;
 
 }
+
+input{
+	text-align: center;
+	margin: 0px auto; 
+	width: 300px;
+	heigt: 300px;
+}
+
