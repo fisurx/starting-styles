@@ -1,6 +1,8 @@
 <html>
 
 	<head>
+		<meta charset="utf-8">
+		<link rel="shortcut icon" href="images/aicon.ico" />
 		<title>Neflix </title>
 		<link href="css/stylesheet.css" type="text/css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -12,20 +14,24 @@
 		<div class="main-container">
 			
 				
-					<div class="menu-static"><h2 class="logo"><b>NETFLIX</b></h2></div>
+					<div class="logo"></div>
 					<div class="cuestionario">
-
-						<form>
+						<div class="sep">
 							<h1>Inicia sesión</h1>
-							<label for="us"> 
-								<input type="text" required autocomplete="on" title="user" placeholder="Email o número de teléfono">
-							</label>
+							<form>
+
+								<label for="us">
+									<input type="text" required autocomplete="on" title="user" class="textos" placeholder="Email o número de teléfono">
+								</label>
+
+								<label for="pass">
+									<input type="text" required autocomplete="on" title="password" class="textos" placeholder="Contraseña">
+								</label>
 							
-							<label for="pass">
-								<input type="text" required autocomplete="on" title="password" placeholder="Contraseña">
-							</label>
-		
-						</form>
+								<button type="submit" class="btn btn-default" id="enviar" value="Ingresar">Iniciar sesión</button>
+
+							</form>
+						</div>
 					</div>
 			
 		</div>
